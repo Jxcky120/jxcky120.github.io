@@ -346,3 +346,30 @@ p {
 .imageWrap.Bigger {
   height: 250px;
 }
+
+.buttonwrap {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  text-align: center;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0px;
+}
+.buttonwrap li {
+  box-sizing: border-box;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  padding: 3px 3px;
+  border: 1px solid #d87c8e;
+  border-radius: 3px;
+}
+
+.buttonwrap li a {
+  color: #777;
+  margin-top: 5px;
+  margin: auto;
+}
+
