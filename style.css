@@ -324,7 +324,7 @@ p {
   list-style: none;
   height: 200px;
   text-align: center;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: block;
   list-style: none;
 }
