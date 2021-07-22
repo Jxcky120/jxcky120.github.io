@@ -373,3 +373,7 @@ p {
   margin: auto;
 }
 
+.title{
+  font-size: 20px;
+  color: #111;
+}
