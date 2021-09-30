@@ -207,8 +207,11 @@ a {
   .item {
     width: 400px;
   }
-}
 
+}
+.GithubImage{
+  width: 100%;
+}
 @media only screen and (max-width: 500px) {
   .item {
     width: 250px;
@@ -366,7 +369,21 @@ p {
   border: 1px solid #d87c8e;
   border-radius: 3px;
 }
+.buttonwrap li a p{
+  padding: 0;
+  margin: 0;
+}
 
+.buttonwrap li:hover{
+  background-color: #d87c8e;
+  
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.buttonwrap li a p:hover{
+  color: #fff;
+  
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .buttonwrap li a {
   color: #777;
   margin-top: 5px;
@@ -376,4 +393,18 @@ p {
 .title{
   font-size: 20px;
   color: #111;
+}
+.osuPFP a{
+  display: flex;
+  justify-content: center;
+}
+
+.osuPFP a img:nth-child(1){
+  width: 20%;
+  height: 20%;
+}
+.osuPFP a img:nth-child(2){
+  padding-top: 20px;
+  width: 60%;
+  margin: -30px 0px;
 }
